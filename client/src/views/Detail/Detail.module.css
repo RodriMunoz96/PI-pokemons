@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, rgb(118, 231, 118), rgb(248, 77, 71));
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.image {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 1em;
+  display: flex;
+  align-content: flex-start;
+}
+
+.property {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.propertiesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-decoration: underline black;
+}
+
+.returnButton {
+  background-color: rgb(180, 177, 10);
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}

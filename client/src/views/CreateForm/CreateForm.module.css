@@ -1,0 +1,57 @@
+.formContainer {
+  background-color: grey;
+  text-align: center;
+  color: rgb(189, 7, 7);
+}
+
+.form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  color: black;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.createButton {
+  background-color: rgb(8, 95, 11);
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.resetButton {
+  background-color: rgb(3, 10, 32);
+  color: rgb(11, 184, 11);
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.returnButton {
+  background-color: rgb(6, 41, 153);
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.typesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.typesCheckbox {
+  width: calc(33.33% - 10px);
+  margin-bottom: 10px;
+  cursor: pointer;
+}

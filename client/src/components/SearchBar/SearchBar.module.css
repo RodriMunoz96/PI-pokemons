@@ -1,0 +1,23 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.searchButton {
+  padding: 8px 12px;
+  background-color: rgba(251, 255, 0, 0.856);
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
